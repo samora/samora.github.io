@@ -27,7 +27,7 @@ html.no-js(ng-app='app', ng-controller='AppCtrl')
 
       a:hover {
         color: #AC6330;
-        text-decoration: overline;
+        text-decoration: underline;
       }
 
   body
@@ -40,15 +40,25 @@ html.no-js(ng-app='app', ng-controller='AppCtrl')
 
     .container
       .col-xs-12
-        .text-center
-          img.img-circle.img-responsive.center-block(src='http://www.gravatar.com/avatar/abd089e9254a7e43e66f474de83a2f4a?s=150')
+        .content
+          img.img-circle.img-responsive(src='http://www.gravatar.com/avatar/abd089e9254a7e43e66f474de83a2f4a?s=120')
           h1 Samora Dake
           h2 Software Developer. UI/UX Designer. Entrepreneur.
-          p: a(href='https://medium/@PapaSamo247') Blog
-          p: a(href='https://github.com/samora') GitHub
-          p: a(href='https://twitter.com/PapaSamo247') Twitter
-          p: a(href='https://facebook.com/samoradake') Facebook
-          p: a(href='http://instagram.com/PapaSamo247') Instagram
+          p: a(href='https://medium/@PapaSamo247', target='_blank').
+            <i class="fa fa-pencil fa-fw"></i>
+            Blog
+          p: a(href='https://github.com/samora', target='_blank').
+            <i class="fa fa-github fa-fw"></i>
+            GitHub
+          p: a(href='https://twitter.com/PapaSamo247', target='_blank').
+            <i class="fa fa-twitter fa-fw"></i>
+            Twitter
+          p: a(href='https://facebook.com/samoradake', target='_blank').
+            <i class="fa fa-facebook fa-fw"></i>
+            Facebook
+          p: a(href='http://instagram.com/PapaSamo247', target='_blank').
+            <i class="fa fa-instagram fa-fw"></i>
+            Instagram
 
 
 
