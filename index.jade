@@ -1,0 +1,64 @@
+doctype
+html.no-js(ng-app='app', ng-controller='AppCtrl')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title(ng-bind='pageTitle')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    //- Styles
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css')
+    link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css')
+
+    style.
+      body {
+        padding: 20px 10px 0; 
+        color: #777;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      a {
+        color: #AC6330;
+      }
+
+      a:hover {
+        color: #AC6330;
+        text-decoration: overline;
+      }
+
+  body
+    <!--[if lt IE 8]>
+    p.browsehappy
+      | You are using an <strong>outdated</strong> browser.
+      | Please <a href="http://browsehappy.com/">upgrade your browser</a>
+      | to improve your experience.
+    <![endif]-->
+
+    .container
+      .col-xs-12
+        .text-center
+          img.img-circle.img-responsive.center-block(src='http://www.gravatar.com/avatar/abd089e9254a7e43e66f474de83a2f4a?s=150')
+          h1 Samora Dake
+          h2 Software Developer, UI/UX Designer, Entrepreneur
+          p: a(href='https://medium/@PapaSamo247') Blog
+          p: a(href='https://github.com/samora') GitHub
+          p: a(href='https://twitter.com/PapaSamo247') Twitter
+          p: a(href='https://facebook.com/samoradake') Facebook
+          p: a(href='http://instagram.com/PapaSamo247') Instagram
+
+
+
+
+    //- Google Analytics: change UA-XXXXX-X to be your site's ID.
+    //-
+      script
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
