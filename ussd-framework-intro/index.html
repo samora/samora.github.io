@@ -52,12 +52,22 @@
 				</section>
 
 				<section>
+					<h2>Purpose</h2>
+					<ul>
+						<li class="fragment roll-in">Speed up USSD client development</li>
+						<li class="fragment roll-in">Sane maintenance of USSD clients</li>
+						<li class="fragment roll-in">Minimize spaghetti code</li>
+						<li class="fragment roll-in">Provide USSD clients with a rich feature set out of the box.</li>
+					</ul>
+				</section>
+
+				<section>
 					<h2>Features</h2>
 					<ul>
 						<li class="fragment roll-in">Session management</li>
 						<li class="fragment roll-in">Menu/screen navigation</li>
 						<li class="fragment roll-in">Resume timed out USSD sessions at last screen</li>
-						<li class="fragment roll-in">Collect and  prepare user inputs</li>
+						<li class="fragment roll-in">Selection based inputs</li>
 						<li class="fragment roll-in">Fully asycnchronous</li>
 					</ul>
 				</section>
@@ -66,15 +76,33 @@
 					<section>
 						<h2>Fundamental concepts</h2>
 						<img src="http://www.eccap.com/wp-content/uploads/2013/11/Idea.gif">
+						<p>
+							<a href="#" class="navigate-down">
+								<img height="100" src="https://cdn2.iconfinder.com/data/icons/picol-vector/32/arrow_sans_down-512.png" alt="Down arrow">
+							</a>
+						</p>
 					</section>
+
 					<section>
 						<h3>Screens</h3>
 						<p><span>Menu</span><br><img src="img/menu-screen.PNG"></p>
+						<p>
+							<a href="#" class="navigate-down">
+								<img height="100" src="https://cdn2.iconfinder.com/data/icons/picol-vector/32/arrow_sans_down-512.png" alt="Down arrow">
+							</a>
+						</p>
 					</section>
+
 					<section>
 						<h3>Screens</h3>
 						<p><span>Notice</span><br><img src="img/notice-screen.PNG"></p>
+						<p>
+							<a href="#" class="navigate-down">
+								<img height="100" src="https://cdn2.iconfinder.com/data/icons/picol-vector/32/arrow_sans_down-512.png" alt="Down arrow">
+							</a>
+						</p>
 					</section>
+
 					<section>
 						<h3>Screens</h3>
 						<p>
@@ -82,11 +110,68 @@
 							<img src="img/select-input-screen.PNG">
 							<img src="img/input-screen.PNG">
 						</p>
+						<p>
+							<a href="#" class="navigate-down">
+								<img height="100" src="https://cdn2.iconfinder.com/data/icons/picol-vector/32/arrow_sans_down-512.png" alt="Down arrow">
+							</a>
+						</p>
 					</section>
+
 					<section>
 						<h3>Screen addresses</h3>
 						<a href="img/mpower-mini.jpg" target="_blank"><img height="360px" src="img/mpower-mini.jpg"></a>
 					</section>
+				</section>
+
+				<section>
+					<h2>Requirements</h2>
+					<ul>
+						<li><a href="https://github.com/MSOpenTech/redis">Redis</a></li>
+						<li>.NET Framework 4.5+</li>
+					</ul>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						## Installation
+
+						* Install [Redis](https://github.com/MSOpenTech/redis).
+						* Install UssdFramework from [NuGet](https://www.nuget.org/packages/UssdFramework/).
+							From Package Manager Console in Visual Studio:
+							```
+							PM> Install-Package UssdFramework
+							```
+					</script>
+				</section>
+
+				<section>
+					<h2>Demo</h2>
+					<p>Build MPower Mini USSD client.</p>
+					<a href="img/mpower-mini.jpg" target="_blank"><img height="360px" src="img/mpower-mini.jpg"></a>
+				</section>
+
+				<section>
+					<h2>Improvements</h2>
+					<p>No solution is absolute.</p>
+					<img src="http://www.calgolftech.com/wp-content/uploads/2014/06/im.jpg">
+					<p>Share & Contribute!</p>
+				</section>
+
+				<section>
+					<h2>Resources</h2>
+					<ul>
+						<li>USSD Framework: <a href="http://github.com/smsgh/ussd-framework">github.com/smsgh/ussd-framework</a></li>
+						<li>USSD Mocker: <a href="http://github.com/smsgh/ussd-mocker">github.com/smsgh/ussd-mocker</a></li>
+						<li>VS 2013 Project Template for USSD Framework: <a href="http://github.com/smsgh/ussd-framework-project-template">github.com/smsgh/ussd-framework-project-template</a></li>
+						<li>Redis: <a href="https://github.com/MSOpenTech/redis">github.com/MSOpenTech/redis</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>The End</h2>
+					<p>Thanks for your time.</p>
+					<p>This presentation is available online at<br>
+					<a href="http://www.samora.me/ussd-framework-intro">www.samora.me/ussd-framework-intro</a></p>
 				</section>
 
 			</div>
