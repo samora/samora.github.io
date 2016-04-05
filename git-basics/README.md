@@ -2,4 +2,4 @@
 
 A gentle introduction to Git basics.
 
-Viewable at [samora.me/git-basics](http://www.samora.me/git-basics).
+Viewable at [samora.github.io/git-basics](http://samora.github.io/git-basics).
