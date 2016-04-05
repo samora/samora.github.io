@@ -2,4 +2,4 @@
 
 A presentation introducing the SMSGH USSD Framework.
 
-Viewable at [samora.github.io/ussd-framework-intro](http://samora.github.io/ussd-framework).
+Viewable at [samora.github.io/ussd-framework-intro](http://samora.github.io/ussd-framework-intro).
