@@ -1,3 +1,3 @@
 # Samora Dakes's Website
 
-[www.samora.me](http://www.samora.me)
+[samora.github.io](http://samora.github.io)
