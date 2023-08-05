@@ -1,0 +1,33 @@
+baseURL = 'http://papasamo.com/'
+languageCode = 'en-us'
+title = 'Papa Samo'
+theme = 'etch'
+
+[params]
+  description = "Techpreneur. Athlete."
+  copyright = "Copyright © 2023 Samora Dake"
+
+[permalinks]
+  posts = "/:title/"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
