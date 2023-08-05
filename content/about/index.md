@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Papa Samo"
 ---
 
 Currently, Product Architect at [Nuanom](https://nuanom.com) and lifetime Fitness Athlete.
