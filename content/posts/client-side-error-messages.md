@@ -1,6 +1,11 @@
 ---
 title: "Client Side Error Messages"
 date: 2023-08-09T20:22:49Z
+categories:
+  - Sofware Development
+tags:
+  - software
+
 ---
 
 Usually when building our apps we connect to some backend service to query or maninpulate data. Our app's
