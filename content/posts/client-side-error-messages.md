@@ -5,7 +5,6 @@ categories:
   - Sofware Development
 tags:
   - software
-
 ---
 
 Usually when building our apps we connect to some backend service to query or maninpulate data. Our app's
