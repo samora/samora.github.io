@@ -14,6 +14,6 @@ It's also good to mention that our architecture affords us the luxury to do this
 
 One of the keys to doing this is to have great logging. However, you don't need fancy logging. We just write clear messages to stderr and stdout. This works very well for us. No BS.
 
-I know what you are thinking. Isn't "simulated development" some fancy term for test driven development? Yes it is. 😊
+I know what you are thinking. Isn't "simulated development" some fancy term for end-2-end test driven development? Yes it is. 😊
 
 Our app will be available in a few days. Visit [nuanom.com](https://nuanom.com) to subscribe for notification and learn more.
