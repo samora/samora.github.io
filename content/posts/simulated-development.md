@@ -4,7 +4,7 @@ date: 2023-10-22T07:56:03Z
 draft: false
 ---
 
-Yesterday, I watched a recent [interview of Jensen Huang](https://www.youtube.com/watch?v=y6NfxiemvHg), CEO of NVIDIA. I found it very insightful. He spoke about how they don't build hardware prototypes of their chips. They are able to simulate the underlying hardware design with software. It rang a bell. In software development the equivalent of that will be writing your code without running it locally, then shipping it to users. This is something we actually do at [Nuanom](https://nuanom.com) for our private APIs.
+Yesterday, I watched a recent [interview with Jensen Huang](https://www.youtube.com/watch?v=y6NfxiemvHg), CEO of NVIDIA. I found it very insightful. He spoke about how they don't build hardware prototypes of their chips. They are able to simulate the underlying hardware design with software. It rang a bell. In software development the equivalent of that will be writing your code without running it locally, then shipping it to users. This is something we actually do at [Nuanom](https://nuanom.com) for our private APIs.
 
 At Nuanom, we don't run API servers locally during development. We simulate usage with tests. However, we don't write unit tests. We don't write integration tests. We only write end-2-end tests with a coverage threshold which we strive to increase every chance we get. This currently sits at 94%. External API calls are mocked ("simulated") to mirror their real implementations.
 
