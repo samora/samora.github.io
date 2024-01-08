@@ -1,7 +1,7 @@
 ---
 title: "Solving Ghana's Ecommerce Problem"
 date: 2023-10-19T04:59:54Z
-draft: false
+draft: true
 ---
 
 It's been 12 years since I started writing software. Software to me has always
