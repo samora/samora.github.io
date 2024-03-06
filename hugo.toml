@@ -5,7 +5,7 @@ theme = 'etch'
 
 [params]
   description = "Techpreneur. Athlete."
-  copyright = "Copyright © 2023 Samora Dake"
+  copyright = "Copyright © 2024 Papa Samo"
 
 [permalinks]
   posts = "/:title/"
