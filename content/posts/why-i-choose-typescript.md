@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-I’ve used many languages over the years. In all cases I built real world apps so it wasn’t like I formed opinions from a Todo app. The languages I’ve had the pleasure of working with are Ruby, Python, C#, Go, JavaScript, Typescript. At the moment I use TypeScript for everything. I build web servers, mobile and web apps. 
+I’ve used many languages over the years. In all cases I built real world apps so it wasn’t like I formed opinions from a Todo app. The languages I’ve had the pleasure of working with are Ruby, Python, C#, Go, JavaScript and Typescript. At the moment I use TypeScript for everything. I build web servers, mobile and web apps. 
 
 ## Installing packages and managing language versions
 
