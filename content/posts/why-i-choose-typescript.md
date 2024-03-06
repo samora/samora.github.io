@@ -35,6 +35,10 @@ Express.js is arguably the best minimal web server. I always thought I liked the
 
 Everybody wants to talk shit about React now, yet Flutter and Swift UI were both inspired by React. React itself is one of the most progressive communities I’ve ever seen. We went from class based components with state management libraries to functional components with hooks.
 
+## Concurrency
+
+Actually one of my motivations for writing this post is I saw a Tweet that said JavaScript doesn't belong on the server. I'm still laughing about this. Bro, Node.js literally introduced the world to non-blocking I/O operations on the server. Before Node.js most languages didn't have any form of non-blocking I/O. The server-side performance gains Node.js had from this single idea were profound. Node.js was literally a server-side revolution.
+
 ## OTA Updates
 
 So you use Flutter, Swift or Kotlin to develop an app and push it to the app stores. You discover a serious bug. Your app has already been downloaded by users. What do you do? Just push a new one and pray all your customers update their app versions?
