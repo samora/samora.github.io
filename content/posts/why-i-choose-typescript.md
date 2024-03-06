@@ -55,7 +55,7 @@ Jeff Atwood famously said “Any application that can be written in JavaScript w
 
 Life is complex enough already, so where we can simplify we should. Why juggle multiple languages in multiple parts of your stack? You don’t want peace? Or you just have something to prove?
 
-Vanilla JavaScript is painful at scale, but TypeScript fixed that problem. Today I won’t write anything in JavaScript, but you will have a hard time convincing me not to use TypeScript.
+Vanilla JavaScript is painful at scale, but TypeScript fixed that problem. Today I won’t write any application in JavaScript or any dynamic language, but you will have a hard time convincing me not to use TypeScript.
 
 
 ## Conclusion
