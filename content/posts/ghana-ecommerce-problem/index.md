@@ -1,7 +1,7 @@
 ---
 title: "Solving Ghana's Ecommerce Problem"
 date: 2023-10-19T04:59:54Z
-draft: true
+draft: false
 ---
 
 It's been 12 years since I started writing software. Software to me has always
@@ -26,7 +26,7 @@ decided to take a crack at the delivery problem. In 2016, I started the first mo
 had a problem with demand however our business model to own the motorcycles was expensive and meant it was harder for us to scale it quickly to meet demand.
 Yes, we should have pivoted sooner among other things, however that is a topic for another day. Ukuul folded in 2018. 
 
-![Alt text](IMG_0024.JPG)
+![Samora Dake on a delivery motorcycle](IMG_0024.JPG)
 
 
 I went on to work for some amazing companies doing other things thinking someone will definitely come along and solve the ecommerce problem.
@@ -52,7 +52,7 @@ designed for the modern Ghanaian seller and buyer. It's been 8 months of long ni
 the market.
 
 Our goal is to empower a new breed of merchants that will create jobs and wealth that will benefit society at large.
-Our delivery service is currently limited to Accra, but we will be expanding it to Kumasi then Takoraki soon. 
+Our delivery service is currently limited to Accra, but we will be expanding it to Kumasi then Takoradi soon. 
 
 The company is Nuanom (means "brethren"). Our app is a few days away from getting listed on app store. 
 
